@@ -1,0 +1,17 @@
+import Hero from "@/components/Hero";
+import Benefits from "@/components/Benefits";
+import UpcomingEvents from "@/components/UpcomingEvents";
+import AuthSection from "@/components/AuthSection";
+
+const Index = () => {
+  return (
+    <div className="min-h-screen">
+      <Hero />
+      <Benefits />
+      <UpcomingEvents />
+      <AuthSection />
+    </div>
+  );
+};
+
+export default Index;
